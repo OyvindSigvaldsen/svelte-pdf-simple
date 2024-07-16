@@ -98,7 +98,7 @@ With `Base64` encoded string:
   }
 
   function handleLoadedSuccess(event: CustomEvent<PdfLoadSuccessContent>) {
-    totalPages = event.detail.pages;
+    totalPages = event.detail.totalPages;
     pageNumber = 1;
     isPdfLoaded = true;
   }
